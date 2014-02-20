@@ -9,10 +9,10 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-var domify = require('domify')
-var events = require('event')
-var classes = require('classes')
+var Emitter = require('component-emitter')
+var domify = require('component-domify')
+var events = require('component-event')
+var classes = require('component-classes')
 
 /**
  * Exports.

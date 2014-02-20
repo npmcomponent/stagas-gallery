@@ -1,10 +1,20 @@
 {
-  "name": "gallery-component",
-  "repo": "stagas/gallery",
-  "description": "gallery",
-  "version": "0.0.1",
-  "keywords": ["gallery"],
-  "devDependencies": {
-    "express": "~3"
-  }
+  "name": "stagas-gallery",
+  "description": "The UI piece for a potential gallery image selector/uploader",
+  "version": "0.0.3",
+  "keywords": [
+    "gallery",
+    "image",
+    "uploader"
+  ],
+  "styles": [
+    "gallery.css"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git"
+  },
+  "license": "MIT"
 }
